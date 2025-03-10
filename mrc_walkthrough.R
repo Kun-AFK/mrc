@@ -91,6 +91,6 @@ z <- ld$Langs
 plot3D::scatter3D(x, y, z, 
     pch = 21, cex = 1, expand = 0.75, colkey = F,
     theta = 45, phi = 20, ticktype = "detailed",
-    xlab = "logPop", ylab = "Area", zlab = "Langs")
+    xlab = "logPop", ylab = "logArea", zlab = "Langs")
 
 
